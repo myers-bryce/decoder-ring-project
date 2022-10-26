@@ -3,7 +3,7 @@
 // Only add code (helper methods, variables, etc.) within the scope
 // of the anonymous function on line 6
 
-const polybiusModule = (function () {
+const polybiusModule = (function () { 
   // define a variable with the data needed to encode polybius style, with a key of letters and value of that key's corresponding numbers
   const lookUpEncode = {
     'a': '11',

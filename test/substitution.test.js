@@ -2,7 +2,7 @@
 const { expect } = require("chai");
 const { substitution } = require("../src/substitution");
 
-describe("substitution", () => {
+describe("substitution", () => { 
     it("should maintain spaces", () =>{
         const input = "space test"
         const alphabet = "biloepw97acsvnq5*mxk06zr81"
